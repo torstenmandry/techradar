@@ -192,34 +192,32 @@ var radar_data = [
       // { name: "",                           pc: { r: 330, t: 190 }, movement: "c" },
     ]
   },
-  { "quadrant": "Plattformen & Infrastruktur",
-    "color" : "#B70062",
-    "left"  : (w-200+30),
-    "top" :   (h/2 + 18),
-    "items" : [
-      { name: 'CDI', pc: { r: 60, t: 290 },  movement: 'c' },
-      { name: 'Jersey', pc: { r: 60, t: 310 },  movement: 'c' },
+  { quadrant: "Plattformen & Infrastruktur",
+    color : "#B70062",
+    left  : (w-200+30),
+    top :   (h/2 + 18),
+    items : [
+      // Kernkompetenz
+      { name: "Tomcat",                         pc: { r:  60, t: 280 }, movement: "c" },
+      { name: "Oracle RDBMS",                   pc: { r:  40, t: 340 }, movement: "c" },
 
-      { name: 'Guice', pc: { r: 60, t: 278 },  movement: 'c' },
-      { name: 'RxJava', pc: { r: 150, t: 298 },              movement: 'c',  domain: 'template' },
+      // Praktische Erfahrung
+      { name: "mySQL",                          pc: { r: 120, t: 300 }, movement: "c" },
+      { name: "Apache httpd",                   pc: { r: 130, t: 350 }, movement: "c" },
+      { name: "Linux",                          pc: { r: 140, t: 280 }, movement: "c" },
+      { name: "VirtualBox",                     pc: { r: 150, t: 320 }, movement: "c" },
+      { name: "Business Objects",               pc: { r: 170, t: 340 }, movement: "c" },
+      { name: "WebLogic",                       pc: { r: 170, t: 310 }, movement: "c" },
+      { name: "VMWare",                         pc: { r: 180, t: 330 }, movement: "c" },
 
-      {"name":"Java 8", "pc":{"r":130,"t":355},"movement":"c"},
-      {"name":"Groovy ^", "pc":{"r":190,"t":280},"movement":"c"},
+      // Theoretisches Wissen
+      { name: "Gradle",                         pc: { r: 230, t: 280 }, movement: "c" },
+      { name: "Puppet",                         pc: { r: 230, t: 300 }, movement: "c" },
+      { name: "Chef",                           pc: { r: 230, t: 330 }, movement: "c" },
+      { name: "Ansible",                        pc: { r: 230, t: 350 }, movement: "c" },
 
-      {"name":"Swift", "pc":{"r":280,"t":300},"movement":"c"},
-      {"name":"Scala - the good parts ^", "pc":{"r":290,"t":320},"movement":"c"},
-      {"name":"Serverside Javascript", "pc":{"r":220,"t":275},"movement":"c"},
-      {"name":"Coffeescript", "pc":{"r":270,"t":282},"movement":"c"},
-      {"name":"Functional Reactive Programming", "pc":{"r":285,"t":330},"movement":"c"},
-      {"name":"Clojure", "pc":{"r":280,"t":310},"movement":"c"},
-      { name: 'RxJs',              pc: { r: 250, t: 338 },              movement: 'c',              domain: 'template' },
-      { name: 'Web Components', pc: { r: 260, t: 330 },  movement: 'c' },
-
-      { name: 'Mustache/Handlebars template',   pc: { r: 50, t: 298 },              movement: 'c',              domain: 'template' },
-      { name: 'Spring ^', pc: { r: 360, t: 330 },  movement: 'c' },
-      {"name":"Web Objects", "pc":{"r":390,"t":290},"movement":"c"},
-      {"name":"ASP Classic", "pc":{"r":375,"t":330},"movement":"c"},
-      {"name":"Java 6 and earlier", "pc":{"r":390,"t":350},"movement":"c"}
+      // Interesse
+      // { name: "",                           pc: { r: 330, t: 190 }, movement: "c" },
     ]
   }
 ];
